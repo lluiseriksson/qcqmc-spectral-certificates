@@ -1,0 +1,13 @@
+{
+  "n_trials": 10000,
+  "violations": 0,
+  "min_slack_Ecert_minus_E0": 0.0002577865525688061,
+  "median_boost": 0.15041657670039976,
+  "max_boost": 3.3950535538435425,
+  "sharpness_witness": {
+    "E0_exact": -1.0,
+    "E_sur": -0.6967067093471655,
+    "E_cert": -1.0,
+    "abs_gap_to_E0": 0.0
+  }
+}

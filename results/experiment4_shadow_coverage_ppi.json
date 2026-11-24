@@ -1,0 +1,101 @@
+{
+  "shadow_coverage_2site": {
+    "n_trials": 100,
+    "alpha": 0.05,
+    "target_coverage": 0.95,
+    "n_snapshots_per_trial": 31000,
+    "mom_blocks_B": 31,
+    "mom_block_size_m": 1000,
+    "empirical_box_coverage": 1.0,
+    "empirical_cert_validity": 1.0,
+    "fraction_beating_RHF": 0.0,
+    "E0_exact": -0.82842712474619,
+    "E_sur_RHF": 0.0,
+    "E_trial_exact": -0.8283133017684479,
+    "median_E_cert": 9.155273437144729e-06,
+    "min_E_cert": 9.155273437144729e-06,
+    "max_E_cert": 9.155273437144729e-06,
+    "empirical_single_shot_var": [
+      2.608160049691282,
+      1.6051266747911368
+    ],
+    "theoretical_var_bound_4a2k": [
+      4.0,
+      2.5
+    ]
+  },
+  "shadow_audit_4site": {
+    "n_snapshots": 20000,
+    "dim": 37,
+    "true_b": [
+      0.8677589307964712,
+      0.687603500162974,
+      0.5458087363503216,
+      0.43380246639819087
+    ],
+    "sample_mean_b": [
+      0.8640346299337185,
+      0.6846532038153751,
+      0.5435515352246423,
+      0.4320748408808806
+    ],
+    "sample_var_b": [
+      2.900982308094703,
+      1.5703661151813748,
+      0.9231478226638938,
+      0.563707364069893
+    ],
+    "exact_3design_var": [
+      2.9037690881544362,
+      1.5675275992323394,
+      0.9208897627083401,
+      0.562143650915336
+    ],
+    "theoretical_var_bound_4a2k": [
+      4.000000000000002,
+      2.161627190999916,
+      1.2706178218351438,
+      0.7758521742298687
+    ],
+    "theoretical_var_bound_6a2k": [
+      6.000000000000003,
+      3.2424407864998743,
+      1.9059267327527158,
+      1.1637782613448031
+    ],
+    "max_abs_shot": [
+      10.189905284527503,
+      7.488416666400048,
+      5.864919193043029,
+      4.6168303420655805
+    ],
+    "deterministic_bound_D2_sqrta2k": [
+      38.00000000000001,
+      27.93469913836499,
+      21.417120107112606,
+      16.73566953835378
+    ]
+  },
+  "ppi_debiasing_authentic_shadows": {
+    "model": "2-site Hubbard (D=6, dim=7) gauge-aligned rotated complex Slater walkers + shrinkage/Backflow NQS (kappa=0.5) + authentic Born-rule global Haar shadows",
+    "n_trials": 250,
+    "M_population": 4000,
+    "m_calibration": 80,
+    "C_shots_per_cal_walker": 256,
+    "total_born_rule_shots": 5120000,
+    "h_true": 0.704955557313918,
+    "surrogate_only_bias": -0.08683483113902102,
+    "surrogate_only_rmse": 0.08683483113902113,
+    "raw_subsampling_bias": -0.006327841536955869,
+    "raw_subsampling_rmse": 0.07006923225247179,
+    "ppi_bias": -0.0013894853511149385,
+    "ppi_rmse": 0.025697105982786534,
+    "ppi_empirical_var": 0.000661054805571888,
+    "ppi_theoretical_var_Prop42": 0.0005786282251113117,
+    "raw_empirical_var": 0.0048892125802550285,
+    "raw_theoretical_var": 0.004277600030997613,
+    "variance_reduction_ratio_raw_over_ppi": 7.396077509829614,
+    "mse_reduction_ratio_sur_over_ppi": 11.418774507391895,
+    "empirical_mean_single_shot_var": 2.690993915766543
+  }
+}

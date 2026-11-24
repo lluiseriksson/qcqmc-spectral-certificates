@@ -1,0 +1,18 @@
+import QcQmcCert
+
+#print axioms QcQmcCert.linear_projector_collapse
+#print axioms QcQmcCert.plucker_kernel_distance_min
+#print axioms QcQmcCert.plucker_kernel_distance_attained
+#print axioms QcQmcCert.plucker_kernel_distance_min_complex
+#print axioms QcQmcCert.mixed_estimator_bias_decomp
+#print axioms QcQmcCert.holomorphic_zero_bias
+#print axioms QcQmcCert.nonholomorphic_bias_persists
+#print axioms QcQmcCert.variational_boost_spectral_bound
+#print axioms QcQmcCert.variational_boost_hamiltonian
+#print axioms QcQmcCert.variational_boost_sharp
+#print axioms QcQmcCert.block_hausdorff_edge_soundness
+#print axioms QcQmcCert.block_hausdorff_gap_soundness
+#print axioms QcQmcCert.block_hausdorff_edge_soundness_complex
+#print axioms QcQmcCert.block_hausdorff_gap_soundness_complex
+#print axioms QcQmcCert.linear_box_upper_bound
+#print axioms QcQmcCert.ppi_control_variate_unbiased

@@ -1,0 +1,6 @@
+name = "qcqmc_cert"
+version = "0.1.0"
+defaultTargets = ["QcQmcCert"]
+
+[[lean_lib]]
+name = "QcQmcCert"
